@@ -1,6 +1,6 @@
 import Image
 
-im = Image.open('F:/6/python challange/7/oxygen.png')
+im = Image.open('oxygen.png')
 #print im.mode
 
 y_begin = 0

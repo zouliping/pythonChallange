@@ -1,6 +1,6 @@
 import Image,ImageDraw
 
-im = Image.open('F:/6/python challange/9/good.jpg')
+im = Image.open('good.jpg')
 print im.mode,im.size
 
 first = [146,399,163,403,170,393,169,391,166,386,170,381,170,371,170,355,169,346,167,335,170,329,170,320,170,
@@ -32,4 +32,4 @@ draw = ImageDraw.Draw(im)
 draw.line(first,fill=128)
 draw.line(second,fill=128)
 
-im.save('F:/6/python challange/9/newgood.jpg')
+im.save('newgood.jpg')

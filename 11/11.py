@@ -1,6 +1,6 @@
 import Image
 
-im = Image.open('F:/6/python challange/11/cave.jpg')
+im = Image.open('cave.jpg')
 print im.size,im.mode
 
 width = im.size[0]
